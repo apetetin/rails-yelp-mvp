@@ -6,6 +6,15 @@ git_source(:github) do |repo_name|
 end
 
 
+# Bootstrap,font-awesome,simple_form,auto-prefixer rails,jquery rails, faker
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
+gem 'simple_form'
+gem 'autoprefixer-rails'
+gem 'jquery-rails'
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+# Add this last line if you use Rails 5.1
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
